@@ -17,7 +17,7 @@ header {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -90,6 +90,43 @@ main p {
 .main-img {
   width: 500px;
   max-width: 100%;
+}
+
+.secondary-section {
+  background: whitesmoke;
+}
+.text-center {
+  text-align: center;
+}
+
+.grid-three-equal {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: block;
+  color: white;
+  padding: 16px;
+  background: lightgrey;
+  text-decoration: none;
 }
 
 footer {
