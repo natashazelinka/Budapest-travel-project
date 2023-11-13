@@ -103,9 +103,23 @@ main p {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
 .card {
   background: white;
   margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
 }
 
 .main-title {
@@ -218,5 +232,13 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
